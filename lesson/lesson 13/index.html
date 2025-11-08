@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>We would like to help you</h1>
+
+      <form id="contactForm">
+        <label>
+          <input type="text" id="name" placeholder="Name" />
+          <small class="error" id="nameError"></small>
+        </label>
+
+        <label>
+          <textarea id="message" placeholder="Message"></textarea>
+          <small class="error" id="messageError"></small>
+        </label>
+
+        <h4>How to answer you?</h4>
+
+        <label>
+          <input type="text" id="phone" placeholder="Phone number" />
+          <small class="error" id="phoneError"></small>
+        </label>
+
+        <label>
+          <input type="text" id="email" placeholder="Email" />
+          <small class="error" id="emailError"></small>
+        </label>
+
+        <button type="submit">Send message</button>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
