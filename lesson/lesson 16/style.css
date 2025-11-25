@@ -1,0 +1,81 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f9;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.student-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.student-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #28a745;
+}
+
+.details p {
+  margin: 5px 0;
+  line-height: 1.4;
+}
+
+.summary {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.summary.excellent {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.summary.good {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.summary.bad {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.grades-list span {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 2px 6px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
